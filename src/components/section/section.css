@@ -1,0 +1,73 @@
+.portfolio {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+    ul {
+      margin: 10px;
+      padding: 0;
+      list-style: none;
+      display: flex;
+    }
+  
+    .container {
+      width: 95%;
+      background: rgb(255, 255, 255);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      /* border: 1px solid rgb(0, 0, 0); */
+    }
+  
+    .item {
+        width: 150px;
+        height: 200px;
+        border-radius: 20px;
+        background: rgb(246, 247, 248);
+        /* border: 1px solid rgb(0, 0, 0); */
+        margin: 8px 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: rgb(92, 89, 89);
+        border-radius: 8px;
+        position: relative;
+        transition: all .5s ease;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+        h3 {
+          position: absolute;
+          font-size: 12px;
+          color: rgb(82, 79, 79);
+          margin-top: 138px;
+        }
+
+        h2 {
+          position: absolute;
+          font-size: 12px;
+          color: #E5B299;
+          margin-top: 170px;
+        }
+  
+        .prodimg {
+          width: 80%;
+          height: 70%;
+          object-fit: cover;
+          /* border: 1px solid rgb(0, 0, 0); */
+          border-radius: 10px;
+          z-index: 1;
+          margin-top: -30px;
+        }
+  
+        .container.item:hover {
+          background-color: rgb(223, 223, 238);
+        }
+          .container.item > img :hover  {
+            opacity: 0.2;
+            z-index: 0;
+          }

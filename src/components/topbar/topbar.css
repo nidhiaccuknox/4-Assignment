@@ -1,0 +1,44 @@
+.topbars{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}
+
+.topbarWrappers{
+    height: 100%;
+    padding: 0px 20px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.topCenters h1{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: rgb(55, 55, 56);
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+.topbarIconContainers{
+    position: relative;
+    cursor: pointer;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    margin-right: 10px;
+    color: rgb(134, 137, 139);
+}
+
+.topbarIconContainers .logoArrow{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
